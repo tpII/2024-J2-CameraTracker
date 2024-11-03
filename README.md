@@ -31,10 +31,10 @@ El hardware del proyecto se basa en la iteración de prototipos, que incluye las
 
 Para el reconocimiento de objetos, se utiliza **Edge Impulse**, donde se entrena un modelo para identificar al menos dos objetos: una estatuilla de Super Mario y un mouse. El proceso incluye:
 
-1. **Captura de Imágenes**: Se toman aproximadamente 300 fotos de cada objeto con buena iluminación y fondo liso.
+1. **Captura de Imágenes**: Se toman aproximadamente 700 fotos de cada objeto con buena iluminación y fondo liso.
 2. **Etiquetado**: Se etiquetan las imágenes manualmente en la plataforma Edge Impulse.
 3. **Generación de Features**: Se especifica el color depth (Grayscale o RGB).
-4. **Entrenamiento**: Se configura el modelo y se ejecuta el entrenamiento, (obtuvimos un F1 SCORE del 99%!).
+4. **Entrenamiento**: Se configura el modelo y se ejecuta el entrenamiento, (obtuvimos un F1 SCORE del 100%!).
 5. **Confusion Matrix**: Con ella puedes evaluar los resultados del modelo y se identifican áreas de mejora.
 
 ## Configuración del Entorno
